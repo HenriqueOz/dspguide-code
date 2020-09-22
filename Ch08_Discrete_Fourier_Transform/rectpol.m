@@ -1,4 +1,4 @@
-function [MagX, ImX] = rectpol(ReX, ImX)
+function [MagX, PhaseX] = rectpol(ReX, ImX)
   M = length(ReX)
   MagX = zeros(1,M)
   PhaseX = zeros(1,M)
