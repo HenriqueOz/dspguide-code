@@ -1,5 +1,5 @@
 function [ReX, ImX] = polrect(MagX, PhaseX)
-  M = length(ReX)
+  M = length(MagX)
   ReX = zeros(1,M)
   ImX = zeros(1,M)
   
